@@ -1,0 +1,28 @@
+{
+    "students": [
+        {
+            "name": "apple",
+            "sex": "1",
+            "age": 20
+        },
+        {
+            "name": "banana",
+            "sex": "0",
+            "age": 27
+        },
+        {
+            "name": "cat",
+            "sex": "1",
+            "age": 23
+        }
+    ],
+    "obj": {
+        "name": "tom",
+        "age": 12
+    },
+    "game":{
+        "title": "游戏规则",
+        "content":"",
+        "award_words":"Congratulations! Thanks for your trying.</br>Wow! You click quite fast, I cannot believe my eyes!<br>Well, I'm glad to announcement you award!"
+    }
+}
