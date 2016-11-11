@@ -1,7 +1,7 @@
 # iapyang.github.io
 personal website
 
-title | website
+website | title
 ---|---
-three-questions | https://iapyang.github.io/three-questions/
+https://iapyang.github.io/three-questions/ | three Math questions about Probability
 
