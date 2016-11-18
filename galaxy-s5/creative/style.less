@@ -1,0 +1,1194 @@
+@import "less/common";
+@import "less/custom";
+
+/*============= Main CSS =============*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.preload img {
+    width: 100%;
+    height: auto;
+}
+
+.lt-ie9 {
+    .ie8_hidden {
+        visibility: hidden;
+    }
+}
+
+#ad_choices {
+    opacity: 0!important;
+    background-color: rgba(255, 255, 255, 0.99) !important;
+}
+
+#ut_close,
+#ut_open {
+    width: 30px;
+    height: 30px;
+}
+
+.wrapper-container {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.wrapper-1280 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body,
+.leavebehind,
+.interactive {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.leavebehind,
+.interactive {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.leavebehind {
+    height: 90px;
+    visibility: hidden;
+    position: relative;
+    background-color: white;
+    .bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        .left {
+            position: absolute;
+            top: -250px;
+            width: 312px;
+        }
+        .mobiles {
+            display: none;
+        }
+        .right {
+            position: absolute;
+            top: -90px;
+            right: 0;
+            width: 312px;
+        }
+    }
+    .leavebehind-container {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        .outter {
+            opacity: 0;
+        }
+        div {
+            display: inline-block;
+        }
+        .icon {
+            background-color: red;
+            width: 100px;
+            height: 100%;
+            top: 0;
+            position: absolute;
+        }
+        .title {
+            position: absolute;
+            left: 2%;
+            top: 0%;
+            height: 100%;
+            width: 80%;
+            div {
+                vertical-align: middle;
+                display: none;
+            }
+            div:nth-child(1) {
+                display: inline-block;
+                width: 39%;
+            }
+            &:after {
+                content: "";
+                width: 0%;
+                height: 100%;
+                display: inline-block;
+                font-size: 0;
+                vertical-align: middle;
+            }
+        }
+        .logo-container {
+            position: absolute;
+            left: 35%;
+            top: 20px;
+            width: 10%;
+            min-width: 112px;
+            .googlePlay {
+                width: 97%;
+                margin-top: 4%;
+            }
+        }
+        .phone {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            width: 78px;
+        }
+        .c_right {
+            position: absolute;
+            left: 56%;
+            top: 0;
+            height: 100%;
+            width: 34%;
+            .learnMore {
+                width: 34%;
+                vertical-align: middle;
+            }
+            .tag-container {
+                width: 57%;
+                margin-left: 9%;
+                vertical-align: middle;
+                text-align: justify;
+                text-justify: inter-ideograph;
+                .at {
+                    width: 54px;
+                }
+                .sp {
+                    width: 64px;
+                }
+                .vr {
+                    width: 53px;
+                }
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    width: 100%;
+                    height: 0;
+                    font-size: 0;
+                }
+            }
+            &:after {
+                content: "";
+                display: inline-block;
+                width: 0;
+                height: 100%;
+                vertical-align: middle;
+                font-size: 0;
+            }
+        }
+        .radioshack {
+            position: absolute;
+            top: 10px;
+            width: 55px;
+            right: 2.5%;
+        }
+        .mobile-radioshack {
+            display: none;
+        }
+    }
+}
+
+.placeholder {
+    .plzrotate {
+        .logo {
+            width: 60px;
+        }
+    }
+}
+
+.interactive {
+    height: 100%;
+    background-color: #fff;
+    .bg {
+        .bg-left {
+            position: absolute;
+            top: -290px;
+            left: -210px;
+            width: 416px;
+        }
+        .bg-bottom {
+            position: absolute;
+            bottom: -120px;
+            left: -180px;
+            width: 355px;
+        }
+        .bg-right {
+            position: absolute;
+            top: -170px;
+            right: -260px;
+            width: 550px;
+        }
+        .bg-duos {
+            display: none;
+            position: absolute;
+            width: 78px;
+            left: 0;
+            bottom: 150px;
+        }
+    }
+    .interactive-container {
+        position: relative;
+        height: 100%;
+        .left,
+        .right {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+        }
+        .opc {
+            opacity: 0;
+        }
+        .left {
+            .left-container {
+                position: relative;
+                display: inline-block;
+                width: 70%;
+                left: 20%;
+                vertical-align: middle;
+                .title {
+                    width: 437px;
+                }
+                .logo-container {
+                    width: 100%;
+                    margin-top: 27px;
+                    div {
+                        display: inline-block;
+                    }
+                    .google {
+                        margin-right: 20px;
+                        width: 125px;
+                    }
+                    .galaxy {
+                        width: 106px;
+                    }
+                }
+                .learnMore {
+                    margin-top: 21px;
+                    width: 105px;
+                }
+                .tag-container {
+                    margin-top: 50px;
+                    width: 100%;
+                    div {
+                        display: inline-block;
+                    }
+                    .at {
+                        margin-right: 52px;
+                        width: 45px;
+                    }
+                    .sp {
+                        margin-right: 52px;
+                        width: 53px;
+                    }
+                    .vr {
+                        width: 44px;
+                    }
+                }
+            }
+            &:after {
+                content: "";
+                display: inline-block;
+                vertical-align: middle;
+                height: 100%;
+                width: 0%;
+                font-size: 0;
+            }
+        }
+        .right {
+            width: 36%;
+            right: 0;
+            .phone-container {
+                position: relative;
+                width: 190px;
+                display: inline-block;
+                vertical-align: middle;
+                overflow: hidden;
+                .phone-content {
+                    position: absolute;
+                    width: 85%;
+                    height: 100%;
+                    left: 7px;
+                    top: 0;
+                    z-index: 98;
+                    overflow: hidden;
+                    div {
+                        position: absolute;
+                        width: 100%;
+                        // height: 100%;
+                        .backface-visibility(hidden);
+                        .translate3d(0, 0, 0);
+                        opacity: 0.99999;
+                    }
+                    .content1 {
+                        left: 0;
+                    }
+                    .content2 {
+                        left: 100%;
+                    }
+                    .content3 {
+                        left: 100%;
+                    }
+                    .content4 {
+                        left: 100%;
+                    }
+                    .content5 {
+                        left: 100%;
+                    }
+                }
+                .phone {
+                    position: relative;
+                    z-index: 99;
+                }
+            }
+            &:after {
+                content: "";
+                height: 100%;
+                width: 0%;
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 0;
+            }
+        }
+        .radioshack {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            width: 92px;
+        }
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .interactive {
+        .left {
+            .left-container {
+                left: 18%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .leavebehind {
+        .bg {
+            .left {
+                left: -50px;
+            }
+            .right {
+                right: -50px;
+            }
+        }
+        .leavebehind-container {
+            .phone {
+                padding-left: 3%;
+            }
+            .c_right {
+                left: 58%;
+                width: 32%;
+                .learnMore {
+                    min-width: 110px;
+                }
+            }
+        }
+    }
+    .interactive {
+        .bg {
+            .bg-bottom {
+                left: -220px;
+            }
+        }
+        .interactive-container {
+            .left {
+                .left-container {
+                    left: 17%;
+                    .title {
+                        width: 57%;
+                        min-width: 315px;
+                    }
+                    .logo-container {
+                        .google {
+                            width: 16%;
+                            min-width: 102px;
+                        }
+                        .galaxy {
+                            width: 14%;
+                            min-width: 88px;
+                        }
+                    }
+                    .learnMore {
+                        width: 11.5%;
+                        min-width: 85px;
+                    }
+                    .tag-container {
+                        .at {
+                            width: 6%;
+                            min-width: 35px;
+                        }
+                        .sp {
+                            width: 6.8%;
+                            min-width: 44px;
+                        }
+                        .vr {
+                            width: 5.8%;
+                            min-width: 36px;
+                        }
+                    }
+                }
+            }
+            .right {
+                .phone-container {
+                    width: 48%;
+                    min-width: 163px;
+                }
+            }
+            .radioshack {
+                width: 8%;
+                min-width: 69px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .leavebehind {
+        .bg {
+            .bg-left {
+                left: -50px;
+            }
+            .bg-right {
+                right: -50px;
+            }
+        }
+        .leavebehind-container {
+            .logo-container {
+                left: 36%;
+            }
+            .phone {
+                padding-left: 10%;
+            }
+            .c_right {
+                left: 59%;
+                .learnMore {
+                    display: block;
+                    margin: 10px auto 6px auto;
+                    width: 145px;
+                }
+                .tag-container {
+                    display: block;
+                    width: 80%;
+                    margin: 0 10%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .interactive {
+        .bg {
+            .bg-bottom {
+                left: -230px;
+            }
+        }
+        .interactive-container {
+            .left {
+                .left-container {
+                    left: 16%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    .leavebehind {
+        .leavebehind-container {
+            .title {
+                left: 4%;
+                div:nth-child(1) {
+                    display: none;
+                }
+                div:nth-child(2) {
+                    display: inline-block;
+                    width: 213px;
+                }
+                div:nth-child(3) {
+                    display: none;
+                }
+            }
+            .logo-container {
+                left: 33%;
+            }
+            .phone {
+                padding-left: 9%;
+            }
+        }
+    }
+    .interactive {
+        .bg {
+            .bg-bottom {
+                left: -240px;
+            }
+        }
+        .interactive-container {
+            .left {
+                .left-container {
+                    left: 15%;
+                    .tag-container {
+                        margin-top: 30px;
+                        .at {
+                            margin-right: 30px;
+                        }
+                        .sp {
+                            margin-right: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .interactive {
+        .bg {
+            .bg-bottom {
+                left: -260px;
+            }
+        }
+        .interactive-container {}
+    }
+}
+
+@media screen and (max-width:768px) {
+    .leavebehind {
+        .bg {
+            .left {
+                left: -120px;
+            }
+            .right {
+                right: -120px;
+            }
+        }
+        .leavebehind-container {
+            .title {
+                left: 3%;
+                div:nth-child(2) {
+                    width: 34%;
+                }
+            }
+            .logo-container {
+                left: 32%;
+            }
+            .phone {
+                padding-left: 8%;
+            }
+            .radioshack {
+                right: 3.5%;
+            }
+        }
+    }
+    .interactive {
+        .bg {
+            .bg-bottom {
+                left: -280px;
+            }
+        }
+        .interactive-container {
+            .left {
+                .left-container {
+                    .logo-container {
+                        margin-top: 24px;
+                    }
+                    .learnMore {
+                        margin-top: 19px;
+                    }
+                }
+            }
+            .radioshack {
+                right: 14px;
+                bottom: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:728px) {
+    .leavebehind {
+        .leavebehind-container {
+            .title {
+                left: 3.1%;
+            }
+            .phone {
+                padding-left: 10%;
+            }
+            .c_right {
+                left: 60%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:727px) {
+    .leavebehind {
+        .leavebehind-container {
+            .c_right {
+                .tag-container {
+                    width: 82%;
+                    margin: 0 9%;
+                }
+            }
+        }
+    }
+    .interactive {
+        .interactive-container {
+            .opc {
+                opacity: 0;
+            }
+            .left {
+                .left-container {
+                    .title {
+                        min-width: 270px;
+                    }
+                    .logo-container {
+                        .google {
+                            min-width: 92px;
+                        }
+                        .galaxy {
+                            min-width: 79px;
+                        }
+                    }
+                    .learnMore {
+                        min-width: 78px;
+                    }
+                    .tag-container {
+                        .at {
+                            min-width: 33px;
+                        }
+                        .sp {
+                            min-width: 36px;
+                        }
+                        .vr {
+                            min-width: 32px;
+                        }
+                    }
+                }
+            }
+            .right {
+                .phone-container {
+                    width: 60%;
+                    min-width: 100px;
+                }
+            }
+            .radioshack {
+                min-width: 42px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .leavebehind {
+        .bg {
+            .left {
+                left: -200px;
+            }
+            .right {
+                right: -200px;
+            }
+        }
+        .leavebehind-container {
+            .logo-container {
+                left: 36%;
+            }
+            .phone {
+                display: none;
+            }
+            .c_right {
+                left: 51%;
+                width: 38%;
+                min-width: 230px;
+            }
+            .radioshack {
+                right: 4.5%;
+            }
+        }
+    }
+    .interactive {
+        .bg {
+            .bg-left {
+                left: -240px;
+            }
+            .bg-bottom {
+                left: -300px;
+            }
+            .bg-right {
+                right: -280px;
+            }
+        }
+        .interactive-container {
+            .left {
+                .left-container {
+                    left: 13%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .leavebehind {
+        .leavebehind-container {
+            .logo-container {
+                left: 33%;
+            }
+            .c_right {
+                left: 49%;
+            }
+        }
+    }
+    .interactive {
+        .bg {
+            .bg-left {
+                left: -260px;
+            }
+            .bg-bottom {
+                left: -320px;
+            }
+            .bg-right {
+                right: -300px;
+            }
+        }
+        .interactive-container {
+            .left {
+                .left-container {
+                    left: 12%;
+                }
+            }
+            .radioshack {
+                right: 0;
+                bottom: 0;
+                padding-right: 10px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:550px) {
+    .leavebehind {
+        .leavebehind-container {
+            .title {
+                left: 20%;
+                div:nth-child(2) {
+                    width: 200px;
+                }
+            }
+            .logo-container {
+                display: none;
+            }
+            .c_right {
+                left: auto;
+                right: 8%;
+                min-width: 110px;
+                width: 25%;
+                .learnMore {
+                    // padding: 10px 0;
+                    margin: 10px auto;
+                    width: 100%;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .tag-container {
+                    display: none;
+                }
+            }
+            .radioshack {
+                left: 5%;
+                top: 14px;
+                width: 12%;
+                max-width: 50px;
+            }
+        }
+    }
+    .interactive {
+        .bg {
+            .bg-right {
+                right: -420px;
+            }
+        }
+        .interactive-container {
+            .left {
+                .left-container {
+                    position: absolute;
+                    width: 270px;
+                    left: 50%;
+                    margin-left: -135px;
+                    height: 90%;
+                    top: 10%;
+                    .title {
+                        position: absolute;
+                        top: 0;
+                    }
+                    .logo-container {
+                        position: absolute;
+                        top: 32%;
+                        .google {
+                            position: absolute;
+                            width: 145px;
+                            display: block;
+                            top: 50px;
+                        }
+                        .galaxy {
+                            position: absolute;
+                            width: 148px;
+                            display: block;
+                        }
+                    }
+                    .learnMore {
+                        position: absolute;
+                        top: 60%;
+                        min-width: 74px;
+                    }
+                    .tag-container {
+                        position: absolute;
+                        bottom: 10px;
+                        .at {
+                            margin-right: 43px;
+                            min-width: 28px;
+                        }
+                        .sp {
+                            margin-right: 43px;
+                            min-width: 33px;
+                        }
+                        .vr {
+                            min-width: 27px;
+                        }
+                    }
+                }
+            }
+            .right {
+                height: auto;
+                top: 35%;
+                .phone-container {
+                    position: absolute;
+                    left: -19%;
+                    width: 100px;
+                    .phone-content {
+                        left: 4px;
+                    }
+                }
+            }
+            .radioshack {
+                padding-right: 10px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .leavebehind {
+        .bg {
+            .left,
+            .right {
+                display: none;
+            }
+        }
+        .leavebehind-container {
+            .radioshack {
+                top: 18px;
+            }
+            .title {
+                div:nth-child(2) {
+                    width: 53%;
+                    min-width: 136px;
+                }
+            }
+        }
+    }
+    .interactive {
+        .interactive-container {
+            .right {
+                width: 35%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .interactive {
+        .bg {
+            .bg-left {
+                left: -400px;
+                display: none;
+            }
+            .bg-bottom {
+                left: -80px;
+                width: 160px;
+                top: 180px;
+                display: none;
+            }
+            .bg-right {
+                display: none;
+                right: -550px;
+            }
+            .bg-duos {
+                display: block;
+            }
+        }
+        .interactive-container {
+            .right {
+                width: 34%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .leavebehind {
+        .leavebehind-container {
+            .radioshack {
+                right: auto;
+                left: 5px;
+            }
+            .title {
+                left: 16%;
+            }
+            .c_right {
+                left: auto;
+                min-width: 100px;
+                .learnMore {
+                    width: 100%;
+                    min-width: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .leavebehind {
+        .leavebehind-container {
+            .radioshack {
+                top: 20px;
+                width: 11%;
+            }
+        }
+    }
+    .interactive {
+        .interactive-container {
+            .left {
+                .left-container {
+                    .tag-container {
+                        .at {
+                            margin-left: -30px;
+                            margin-right: 16%;
+                        }
+                        .sp {
+                            margin-right: 16%;
+                        }
+                    }
+                }
+            }
+            .right {
+                width: 33%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .leavebehind {
+        .leavebehind-container {
+            .radioshack {
+                min-width: 36px;
+            }
+        }
+    }
+    .interactive {
+        .interactive-container {
+            .left {
+                .left-container {
+                    .tag-container {
+                        .at {
+                            margin-right: 28px;
+                            margin-left: -13px;
+                        }
+                        .sp {
+                            margin-right: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mobile {
+    @media screen and (max-width: 737px) {
+        .leavebehind {
+            .bg {
+                .left {
+                    display: none;
+                }
+                .mobiles {
+                    display: block;
+                    width: 84px;
+                }
+            }
+            .leavebehind-container {
+                .title {
+                    div {
+                        display: none;
+                    }
+                    div:nth-child(3) {
+                        position: absolute;
+                        display: inline-block;
+                        width: 130px;
+                        top: 3px;
+                    }
+                }
+                .logo-container {
+                    top: 3px;
+                    width: 106px;
+                    min-width: 0;
+                    left: 30%;
+                }
+                .phone {
+                    display: none;
+                }
+                .c_right {
+                    left: 51%;
+                    width: 38%;
+                    min-width: 230px;
+                    .learnMore {
+                        margin: 11px auto 6px 43px;
+                        min-width: 0;
+                        width: 130px;
+                    }
+                    .tag-container {
+                        display: none;
+                    }
+                }
+                .radioshack {
+                    top: 3px;
+                    right: 54px;
+                    width: 35px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 415px) {
+        .leavebehind {
+            height: 50px;
+            .bg {
+                .left {
+                    display: none;
+                }
+                .mobiles {
+                    display: block;
+                    width: 84px;
+                }
+            }
+            .leavebehind-container {
+                .title {
+                    left: 44%;
+                    margin-left: -50px;
+                    div {
+                        display: none;
+                    }
+                    div:nth-child(3) {
+                        display: inline-block;
+                        width: 113px;
+                        top: 3px;
+                    }
+                }
+                .radioshack {
+                    top: 3px;
+                    width: 9%;
+                }
+                .c_right {
+                    left: auto;
+                    right: 32px;
+                    width: 64px;
+                    min-width: 0;
+                    .learnMore {
+                        position: relative;
+                        top: 0;
+                        display: block;
+                        margin: 13px 0 0 -17px;
+                        min-width: 0;
+                        width: 72px;
+                    }
+                }
+                .radioshack {
+                    display: none;
+                }
+                .mobile-radioshack {
+                    display: inline-block;
+                    position: absolute;
+                    left: 0;
+                    width: 70px;
+                    max-width: 70px;
+                    top: s 1px;
+                    padding: 8px 0 8px 5px;
+                    background: rgba(0, 0, 0, .01);
+                }
+            }
+        }
+    }
+}
+
+.iphone {
+    @media screen and (max-height: 630px) {
+        //iphone6 plus
+    }
+    @media screen and (max-height:561px) {
+        //iphone6
+    }
+    @media screen and (max-height:470px) {
+        //iphone5/5s ios8
+        .interactive {
+            .interactive-container {
+                .left {
+                    .left-container {
+                        .title {
+                            top: -8px;
+                        }
+                    }
+                }
+                .radioshack {
+                    min-width: 35px;
+                }
+            }
+        }
+    }
+}
+
+.s3 {
+    .interactive {}
+}
+
+.s4 {
+    .interactive {}
+}
+
+.s5 {
+    .interactive {}
+}

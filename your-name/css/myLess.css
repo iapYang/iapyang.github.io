@@ -1,0 +1,332 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  border: 0;
+}
+body,
+html {
+  background-image: url(../images/backgroundtexture.png);
+  width: 100%;
+}
+@font-face {
+  font-family: 'sansationregular';
+  src: url(../ttf/Verdana.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+span,
+p,
+textarea {
+  font-family: 'sansationregular';
+}
+div.dv {
+  margin: 0% 10% 0% 10%;
+  position: relative;
+  width: 80%;
+}
+div.head {
+  margin: 1% 10% 1% 10%;
+}
+div.head span {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  div.head div.left,
+  div.head div.right {
+    display: inline-block;
+  }
+  div.head div.left {
+    width: 50%;
+    text-align: left;
+  }
+  div.head div.left span.left2 {
+    margin-left: 3%;
+  }
+  div.head div.right {
+    width: 50%;
+    text-align: right;
+  }
+  div.head div.right span {
+    font-size: 15px;
+    margin-right: 2%;
+  }
+  div.head div.right span.right4 {
+    margin-right: 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  div.head div.left,
+  div.head div.right {
+    text-align: center;
+  }
+  div.head span.left2 {
+    margin-left: 3%;
+  }
+  div.head div.right {
+    margin-top: 1%;
+  }
+  div.head div.right span.right {
+    font-size: 15px;
+    margin-left: 2%;
+  }
+  div.head div.right span.right1 {
+    margin-left: 0%;
+  }
+}
+div.line img {
+  width: 100%;
+}
+div.hello {
+  padding: 3% 0% 2% 0%;
+  text-align: center;
+}
+div.hello p,
+div.hello span {
+  font-size: 20px;
+}
+div.hello span {
+  color: #ec8193;
+}
+div.slider img {
+  width: 100%;
+  opacity: 0;
+  border-radius: 15px;
+}
+div.slider img.display {
+  opacity: 1;
+}
+div.slider img:nth-child(2) {
+  position: relative;
+  margin-top: -50%;
+}
+div.slider img:nth-child(3) {
+  position: relative;
+  margin-top: -50%;
+}
+div.column {
+  margin-top: 3%;
+}
+div.column span,
+div.column p {
+  font-size: 15px;
+}
+div.column div.left,
+div.column div.right {
+  text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  div.column div.left,
+  div.column div.right {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+  }
+  div.column div.right {
+    margin-left: 2%;
+  }
+}
+@media screen and (max-width: 767px) {
+  div.column div.right {
+    margin-top: 2%;
+  }
+}
+div.column div.title {
+  width: 100%;
+  text-align: center;
+}
+div.column div.title span {
+  color: #ec8193;
+}
+div.column div.article {
+  vertical-align: top;
+}
+div.trans {
+  box-shadow: 0 0 10px #ec8193;
+}
+div.trans img {
+  opacity: 1!important;
+}
+@media screen and (min-width: 768px) {
+  div.pics {
+    margin-top: 3%;
+  }
+  div.pics div.single {
+    display: inline-block;
+    margin-left: 2%;
+    width: 15%;
+    vertical-align: top;
+    border-radius: 15px;
+    -webkit-transition: -webkit-box-shadow 0.5s linear;
+    -moz-transition: -moz-box-shadow 0.5s linear;
+    -o-transition: box-shadow 0.5s linear;
+    transition: box-shadow 0.5s linear;
+  }
+  div.pics div.single div.up {
+    width: 100%;
+  }
+  div.pics div.single div.up img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    opacity: 0.7;
+    -webkit-transition: opacity 1.5s ease;
+    -moz-transition: opacity 1.5s ease;
+    -o-transition: opacity 1.5s ease;
+    transition: opacity 1.5s ease;
+  }
+  div.pics div.single div.down {
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border-radius: 0 0 15px 15px;
+  }
+  div.pics div.single div.down p {
+    font-size: 10px;
+  }
+  div.pics div.single div.down p:nth-child(1) {
+    padding: 3% 0% 0% 8%;
+  }
+  div.pics div.single div.down p:nth-child(2) {
+    padding: 0% 0% 5% 8%;
+  }
+  div.pics div.single div.down span {
+    font-size: 8px;
+    color: #ec8193;
+  }
+  div.pics div.first {
+    margin-left: 8.5%;
+  }
+  div.pics div.fifth {
+    margin-right: 8.5%;
+  }
+  div.pics div.downer {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 767px) {
+  div.pics {
+    margin-top: 1%;
+    text-align: center;
+  }
+  div.pics div.single {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3%;
+    border-radius: 15px;
+  }
+  div.pics div.single div.up {
+    width: 100%;
+  }
+  div.pics div.single div.up img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    opacity: 0.7;
+  }
+  div.pics div.single div.down {
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border-radius: 0 0 15px 15px;
+  }
+  div.pics div.single div.down p {
+    font-size: 10px;
+  }
+  div.pics div.single div.down p:nth-child(1) {
+    padding: 3% 0% 0% 8%;
+  }
+  div.pics div.single div.down p:nth-child(2) {
+    padding: 0% 0% 5% 8%;
+  }
+  div.pics div.single div.down span {
+    font-size: 8px;
+    color: #ec8193;
+  }
+  div.pics div.right {
+    margin-left: 5%;
+  }
+}
+div.thanks {
+  margin-top: 3%;
+  text-align: center;
+}
+div.thanks p {
+  font-size: 20px;
+  color: #ec8193;
+}
+div.connect {
+  margin-top: 3%;
+  background-color: black;
+  position: relative;
+}
+div.connect div.left {
+  padding: 5% 0% 3% 0%;
+  vertical-align: middle;
+}
+div.connect div.left p {
+  font-size: 20px;
+  color: #ec8193;
+}
+div.connect div.left input,
+div.connect div.left textarea {
+  width: 100%;
+  font-size: 20px;
+  padding: .5%;
+  background-image: url(../images/backgroundtexture.png);
+}
+div.connect div.left input::-webkit-input-placeholder,
+div.connect div.left textarea::-webkit-input-placeholder {
+  color: #000000;
+}
+div.connect div.left input:-moz-placeholder,
+div.connect div.left textarea:-moz-placeholder {
+  color: #000000;
+}
+div.connect div.left input::-moz-placeholder,
+div.connect div.left textarea::-moz-placeholder {
+  color: #000000;
+}
+div.connect div.left input:-ms-input-placeholder,
+div.connect div.left textarea:-ms-input-placeholder {
+  color: #000000;
+}
+div.connect div.left div {
+  width: 100%;
+  margin-top: 1%;
+}
+div.connect div.left div.send p span {
+  font-size: 20px;
+  color: white;
+}
+div.connect div.right {
+  text-align: right;
+  vertical-align: middle;
+}
+div.connect div.right div.icon {
+  display: inline-block;
+  margin-left: 5%;
+}
+div.connect div.right div.icon img {
+  opacity: .7;
+}
+div.connect div.right div:first-child {
+  margin-left: 0%;
+}
+@media screen and (min-width: 768px) {
+  div.connect div.left,
+  div.connect div.right {
+    display: inline-block;
+  }
+  div.connect div.left {
+    width: 60%;
+  }
+  div.connect div.right {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 767px) {
+  div.connect div.right {
+    margin-top: 10%;
+  }
+}

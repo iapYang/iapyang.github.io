@@ -1,0 +1,631 @@
+* {
+  padding: 0;
+  border: 0;
+  font-size: 0;
+  margin: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+div.dv {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+a {
+  display: block;
+}
+div.dv1 {
+  background-color: #0171c5;
+}
+div.dv1 div.a1 {
+  position: relative;
+  padding: 5% 0 0 3%;
+}
+div.dv1 div.a1 img {
+  width: 70%;
+}
+div.dv1 div.a2 {
+  position: relative;
+  padding: 5% 0 0 3%;
+}
+div.dv1 div.a2 img {
+  width: 50%;
+}
+div.dv1 div.a3 {
+  position: relative;
+  margin: -25% 0 0 56%;
+  width: 51%;
+}
+div.dv1 div.a3 img {
+  width: 100%;
+}
+div.dv1 div.a4 {
+  position: relative;
+  margin: -10% 0% 0% 3%;
+  padding-bottom: 4.1%;
+}
+div.dv1 div.a4 img {
+  width: 27%;
+}
+div.dv2 div.a1 {
+  position: relative;
+  padding: 8% 0% 0% 4%;
+  width: 65%;
+}
+div.dv2 div.a1 img {
+  width: 100%;
+}
+div.dv2 div.a2 {
+  position: relative;
+  padding: 3% 0% 0% 4%;
+  width: 65%;
+}
+div.dv2 div.a2 img {
+  width: 100%;
+}
+div.dv2 div.dv2_outter_container {
+  padding: 5% 0% 5.5% 0%;
+}
+div.dv2 div.dv2_outter_container div.dv2_inner_container {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+div.dv2 div.dv2_outter_container div.dv2_inner_container div.circle img {
+  width: 40%;
+}
+div.dv2 div.dv2_outter_container div.dv2_inner_container div.tag {
+  padding: 4.5% 0% 0% 0%;
+}
+div.dv2 div.dv2_outter_container div.dv2_inner_container div.tag img {
+  width: 76%;
+}
+div.dv2 div.dv2_outter_container div.dv2_inner_container div.tag1 img {
+  background-color: #0171c5;
+}
+div.dv2 div.dv2_outter_container div.dv2_inner_container div.tag2 img {
+  background-color: #00bcf2;
+}
+div.dv3 {
+  background-color: #0171c5;
+}
+div.dv3 div.a1 {
+  position: relative;
+  padding: 5% 0 3.5% 4%;
+}
+div.dv3 div.a1 img {
+  width: 85%;
+}
+div.dv3 div.a2 {
+  position: relative;
+  margin-left: 4%;
+}
+div.dv3 div.a2 img {
+  width: 73%;
+}
+div.dv3 div.a3 {
+  position: relative;
+  width: 52%;
+  margin: -18% 0% 0% -3%;
+  padding-bottom: 3.7%;
+}
+div.dv3 div.a3 img {
+  width: 100%;
+}
+div.dv3 div.container a {
+  margin: 1.8% 0% 0% 49%;
+  width: 38%;
+}
+div.dv3 div.container a img {
+  background-color: #00bcf2;
+  width: 100%;
+}
+div.dv3 div.container a.a5 {
+  margin-top: 2.8%;
+}
+div.dv4 div.a1 {
+  padding: 5.7% 0 3.5% 3%;
+}
+div.dv4 div.a1 img {
+  width: 80%;
+}
+div.dv4 div.a2 {
+  padding-left: 3%;
+}
+div.dv4 div.a2 img {
+  width: 70%;
+}
+div.dv4 div.a3 {
+  position: relative;
+  margin: -24% 0% 0% 28%;
+  padding-bottom: 1.3%;
+  width: 78%;
+  z-index: -1;
+}
+div.dv4 div.a3 img {
+  width: 100%;
+}
+div.dv4 div.div1 {
+  margin: 5.4% 0 0 3%;
+  width: 46.5%;
+}
+div.dv4 div.div1 a img {
+  width: 100%;
+  background-color: #0171c5;
+}
+div.dv4 div.div1 a.a5 {
+  margin-top: 4.6%;
+}
+div.dv5 {
+  background-color: #0171c5;
+  margin-top: 55.6%;
+}
+div.dv5 div.container1 {
+  width: 58%;
+  margin: -92% 0% 0% -20%;
+  padding-top: 11%;
+  padding-bottom: 8.77%;
+}
+div.dv5 div.container1 div.a1 {
+  position: relative;
+  width: 100%;
+}
+div.dv5 div.container1 div.a1 img {
+  width: 100%;
+}
+div.dv5 div.container2 {
+  margin: -57% 0% 16% 41%;
+  padding: 11% 0 14.75% 0;
+}
+div.dv5 div.container2 div img {
+  width: 100%;
+}
+div.dv5 div.container2 div.a2 {
+  width: 95%;
+}
+div.dv5 div.container2 div.a3 {
+  width: 80%;
+  padding: 11% 0 15.5% 0;
+}
+div.dv5 div.container2 a.a4 {
+  width: 58%;
+}
+div.dv5 div.container2 a.a4 img {
+  width: 100%;
+  background-color: #00bcf2;
+}
+div.dv6 div.container {
+  position: relative;
+}
+div.dv6 div.a1 {
+  width: 82%;
+  padding: 5.5% 4% 0% 7%;
+}
+div.dv6 div.a1 img {
+  width: 100%;
+}
+div.dv6 div.div1 {
+  margin: 3% 0% 0% 37%;
+  width: 100%;
+}
+div.dv6 div.div1 div.a2 {
+  position: absolute;
+  width: 42%;
+  left: -43%;
+}
+div.dv6 div.div1 div.a2 img {
+  width: 100%;
+}
+div.dv6 div.div1 div.a3 {
+  width: 60%;
+  padding: 10% 0% 2.5% 0%;
+}
+div.dv6 div.div1 div.a3 img {
+  width: 100%;
+}
+div.dv6 div.div1 a.a4 {
+  width: 40%;
+  margin-left: 2%;
+}
+div.dv6 div.div1 a.a4 img {
+  width: 100%;
+  background-color: #00bcf2;
+}
+div.dv6 div.div2 {
+  margin: 17.5% 0% 0% 2%;
+}
+div.dv6 div.div2 div.a6 {
+  top: -60%;
+  left: 50%;
+  position: absolute;
+  width: 48%;
+}
+div.dv6 div.div2 div.a6 img {
+  width: 100%;
+}
+div.dv6 div.div2 div.a5 {
+  width: 55%;
+}
+div.dv6 div.div2 div.a5 img {
+  width: 100%;
+}
+div.dv6 div.div2 a.a7 {
+  width: 40%;
+  margin: 3% 0% 13.5% 0%;
+}
+div.dv6 div.div2 a.a7 img {
+  width: 100%;
+  background-color: #00bcf2;
+}
+div.title1 {
+  background-color: #0171c5;
+  width: 100%;
+  padding: 5.5% 0% 5% 5%;
+}
+div.title1 img {
+  width: 75%;
+}
+div.dv7 {
+  margin: 0% 0% 0% 33%;
+  padding-top: 6.5%;
+  padding-bottom: 6%;
+}
+div.dv7 div.a {
+  position: absolute;
+}
+div.dv7 div.a1 {
+  left: -29.5%;
+  top: 14%;
+  width: 27%;
+}
+div.dv7 div.a1 img {
+  width: 100%;
+}
+div.dv7 div.a2 {
+  left: -23%;
+  top: 69%;
+  width: 3%;
+}
+div.dv7 div.a2 img {
+  width: 100%;
+}
+div.dv7 div.a3 {
+  left: -18%;
+  top: 68%;
+  width: 8%;
+}
+div.dv7 div.a3 img {
+  width: 100%;
+}
+div.dv7 div.container {
+  width: 100%;
+}
+div.dv7 div.container img {
+  width: 60%;
+}
+div.dv8 {
+  padding: 4% 0% 17% 0%;
+}
+div.dv8 div.container1 {
+  width: 55%;
+  padding: 0% 0% 7.5% 5%;
+}
+div.dv8 div.container1 img {
+  width: 100%;
+}
+div.dv8 div.container2 {
+  position: relative;
+}
+div.dv8 div.container2 div {
+  position: absolute;
+}
+div.dv8 div.container2 div.a1 {
+  left: 5%;
+  top: 25%;
+  width: 3%;
+}
+div.dv8 div.container2 div.a1 img {
+  width: 100%;
+}
+div.dv8 div.container2 div.x {
+  width: 8%;
+}
+div.dv8 div.container2 div.x img {
+  width: 100%;
+}
+div.dv8 div.container2 div.a2 {
+  left: 10%;
+}
+div.dv8 div.container2 div.a3 {
+  left: 21%;
+}
+div.dv8 div.container2 div.a4 {
+  left: 30%;
+}
+div.dv8 div.container2 div.a4 img {
+  display: block;
+}
+div.dv8 div.container2 div.a4 img.img2 {
+  position: absolute;
+  left: 100%;
+  top: 0%;
+}
+div.dv8 div.container2 div.a4 img.img3 {
+  position: absolute;
+  left: 200%;
+  top: 0%;
+}
+div.dv8 div.container3 {
+  position: absolute;
+  left: 52%;
+  top: 16%;
+  width: 46%;
+}
+div.dv8 div.container3 img {
+  width: 100%;
+}
+div.dv9 {
+  padding: 5.5% 0% 18% 0%;
+}
+div.dv9 img {
+  width: 100%;
+}
+div.dv9 div.container1 {
+  width: 50%;
+  padding-left: 47%;
+}
+div.dv9 div.container2 {
+  position: relative;
+  margin: 6% 0% 0% 37%;
+  width: 100%;
+}
+div.dv9 div.container2 div.a1 {
+  position: absolute;
+  left: 1.5%;
+  top: 35%;
+  width: 3%;
+}
+div.dv9 div.container2 div.cpu {
+  position: absolute;
+  width: 8%;
+}
+div.dv9 div.container2 div.a2 {
+  left: 7%;
+}
+div.dv9 div.container2 div.a3 {
+  left: 18.5%;
+}
+div.dv9 div.container2 div.a4 {
+  left: 30%;
+}
+div.dv9 div.container2 div.a5 {
+  left: 39%;
+}
+div.dv9 div.container2 div.a6 {
+  left: 47%;
+}
+div.dv9 div.container2 div.a7 {
+  left: 55%;
+}
+div.dv9 div.container3 {
+  position: absolute;
+  width: 50%;
+  left: 0%;
+  top: 8%;
+}
+div.dv10 {
+  padding: 8% 0% 16% 0%;
+}
+div.dv10 img {
+  width: 100%;
+}
+div.dv10 div.container1 {
+  width: 55%;
+  padding: 0% 0% 5% 5%;
+}
+div.dv10 div.container2 {
+  position: relative;
+}
+div.dv10 div.container2 div {
+  position: absolute;
+}
+div.dv10 div.container2 div.a1 {
+  position: absolute;
+  left: 3.5%;
+  top: 35%;
+  width: 3%;
+}
+div.dv10 div.container2 div.a1 img {
+  width: 100%;
+}
+div.dv10 div.container2 div.cpu {
+  position: absolute;
+  width: 8%;
+}
+div.dv10 div.container2 div.cpu img {
+  width: 100%;
+}
+div.dv10 div.container2 div.a2 {
+  left: 9%;
+}
+div.dv10 div.container2 div.a3 {
+  left: 20.5%;
+}
+div.dv10 div.container2 div.a4 {
+  left: 30%;
+}
+div.dv10 div.container2 div.a5 {
+  left: 38%;
+}
+div.dv10 div.container2 div.a6 {
+  left: 46%;
+}
+div.dv10 div.container3 {
+  position: absolute;
+  width: 37%;
+  left: 62%;
+  top: 13%;
+}
+div.dv11 {
+  padding: 8% 0% 19.5% 0%;
+}
+div.dv11 img {
+  width: 100%;
+}
+div.dv11 div.container {
+  width: 100%;
+  position: relative;
+  margin: 0% 0% 0% 38%;
+}
+div.dv11 div.container div.container1 {
+  width: 55%;
+  padding: 0% 0% 5% 5%;
+}
+div.dv11 div.container div.container2 {
+  position: relative;
+}
+div.dv11 div.container div.container2 div {
+  position: absolute;
+}
+div.dv11 div.container div.container2 div.a1 {
+  position: absolute;
+  left: 3.5%;
+  top: 35%;
+  width: 3%;
+}
+div.dv11 div.container div.container2 div.a1 img {
+  width: 100%;
+}
+div.dv11 div.container div.container2 div.cpu {
+  position: absolute;
+  width: 8%;
+}
+div.dv11 div.container div.container2 div.cpu img {
+  width: 100%;
+}
+div.dv11 div.container div.container2 div.a2 {
+  left: 9%;
+}
+div.dv11 div.container div.container2 div.a3 {
+  left: 20.5%;
+}
+div.dv11 div.container div.container2 div.a4 {
+  left: 30%;
+}
+div.dv11 div.container div.container2 div.a5 {
+  left: 38%;
+}
+div.dv11 div.container div.container2 div.a6 {
+  left: 46%;
+}
+div.dv11 div.container3 {
+  position: absolute;
+  width: 32%;
+  left: 3%;
+  top: 18%;
+}
+div.dv12 {
+  background-color: #0171c5;
+}
+div.dv12 div {
+  padding: 5.5% 0% 5.5% 5%;
+  width: 52%;
+}
+div.dv12 div img {
+  width: 100%;
+}
+div.dv13 {
+  padding: 6% 0% 7% 0%;
+}
+div.dv13 img {
+  width: 100%;
+}
+div.dv13 div.a1 {
+  width: 55%;
+  margin: 0% 0% 0% 4%;
+}
+div.dv13 div.x {
+  margin: 6% 0% 0% 3%;
+}
+div.dv13 div.a2 {
+  width: 90%;
+}
+div.dv13 div.a3 {
+  width: 85%;
+}
+div.dv13 div.a4 {
+  margin-top: 6.5%;
+  width: 83.5%;
+}
+div.dv14 {
+  padding: 6% 0% 7% 0%;
+}
+div.dv14 img {
+  width: 100%;
+}
+div.dv14 div.a1 {
+  width: 60%;
+  margin: 0% 0% 0% 4%;
+}
+div.dv14 div.a2,
+div.dv14 div.a3 {
+  margin: 7% 0% 0% 3%;
+}
+div.dv14 div.a2 {
+  width: 85%;
+}
+div.dv14 div.a3 {
+  width: 80%;
+}
+div.dv15 {
+  padding: 6% 0% 5% 0%;
+}
+div.dv15 img {
+  width: 100%;
+}
+div.dv15 div.a1 {
+  margin: 0% 0% 0% 4%;
+  width: 50%;
+}
+div.dv15 div.a2 {
+  width: 85%;
+  margin: 7% 0% 0% 3%;
+}
+div.dv15 div.a3 {
+  position: absolute;
+  padding-bottom: 3%;
+  top: 12.6%;
+}
+div.dv15 div.a3 img.leage {
+  opacity: 1.5;
+}
+div.dv15 div.a3 div.a4 {
+  visibility: hidden;
+  width: 96%;
+  margin-left: 2%;
+}
+div.dv15 div.a3 a.a5 {
+  visibility: hidden;
+  position: absolute;
+  right: 4%;
+  top: 3%;
+  width: 2.5%;
+}
+div.dv15 div.a3 a.a6 {
+  position: absolute;
+  width: 9%;
+  top: 84%;
+  left: 3%;
+}
+a.back {
+  position: fixed;
+  width: 14%;
+  right: 4%;
+  bottom: 0%;
+}
+a.back img {
+  width: 100%;
+}
