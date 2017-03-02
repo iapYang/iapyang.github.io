@@ -8,3 +8,4 @@ https://iapyang.github.io/intel/ | ads built for intel | Tablet only
 https://iapyang.github.io/your-name/ | responsive website | Desktop only
 https://iapyang.github.io/galaxy-s5/ | ads built for S5 | All
 https://iapyang.github.io/grumpy-cat's-birthday/ | ads built for grumpy cat's birthday | All
+https://iapyang.github.io/vue-loading/ | demo for vue-loading | Desktop
